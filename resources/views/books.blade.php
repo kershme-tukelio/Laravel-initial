@@ -1,0 +1,11 @@
+<html>
+    <head>
+        <title>Books</title>
+    </head>
+    <body>
+        <h1>Books:</h1>
+        <ul>
+        <li>{{$book}}</li>
+        </ul>
+    </body>
+</html>

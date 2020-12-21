@@ -14,7 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $books = [
+        'title' => 'naslov1',
+        'author' => 'author1'
+    ];
+    return $books;
+    // return view('welcome');
 });
 Route::get('/about', function () {
     return view('about');
